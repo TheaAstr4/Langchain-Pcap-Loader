@@ -1,0 +1,1 @@
+cmd_Release/obj.target/pcap_parser.node := g++ -o Release/obj.target/pcap_parser.node -shared -pthread -rdynamic -m64  -Wl,-soname=pcap_parser.node -Wl,--start-group Release/obj.target/pcap_parser/pcap_parser.o -Wl,--end-group -lnode -lpcap

@@ -16,20 +16,7 @@ Além disso, inclui um **módulo nativo em C++** para realizar a análise dos pa
 
 ## 📄 Uso
 
-Exemplo de uso do **Document Loader** dentro de um pipeline LangChain:
-
-```javascript
-const { PcapLoader } = require("./pcapLoader");
-
-(async () => {
-    const loader = new PcapLoader("caminho/para/arquivo.pcapng");
-    const documents = await loader.load();
-    
-    documents.forEach(doc => console.log(doc.pageContent));
-})();
-```
-
-Exemplo de uso do módulo nativo para análise de pacotes:
+Exemplo de uso do módulo para análise de pacotes:
 
 ```javascript
 
